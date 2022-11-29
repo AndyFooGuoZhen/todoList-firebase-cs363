@@ -31,6 +31,7 @@ function Todolist() {
 
     async function addTask(taskName){
       await addDoc(taskCollectionRef, {taskName});
+      getData();
     }   
 
 

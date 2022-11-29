@@ -49,7 +49,7 @@ function Todolist() {
         Todo List
       </Heading>
         <Box display={"flex"} justifyContent="center" mt="2rem" >
-        <VStack w={"60%"}>
+        <VStack w={"85%"}>
           <HStack w="100%">
           <Input borderRadius={"50"} padding="2rem" display="inline" onChange={(event)=>{setCurrentTask(event.target.value)}}/>
           <IconButton icon={<FaPlus/>} onClick={()=>addTask(currentTask)}></IconButton> 
